@@ -19,13 +19,9 @@ if [[ -z "$url" || ! "$url" =~ ^https?:\/\/ ]]; then
   exit 1
 fi
 echo -e
-filename=$(basename "$url")
-read -p "Введите имя файла (по умолчанию: $filename): " filename_input
-filename="${filename_input:-$filename}"
-echo -e
 echo   "Downloading....."
 echo -e
-curl -A "$argument" -o "$filename" "$download_dir" "$url"
+curl -A "$argument" -o "$download_dir" "$url"
 echo -e
 if [ $? -eq 0 ]; then
   echo "Загрузка завершена успешно."
