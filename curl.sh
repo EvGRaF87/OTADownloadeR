@@ -25,7 +25,7 @@ filename="${filename_input:-$filename}"
 echo -e
 echo   "Downloading....."
 echo -e
-curl -A "$argument" -d "$download_dir" -o "$filename" "$url"
+curl -A "$argument" -o "$filename" "$download_dir" "$url"
 echo -e
 if [ $? -eq 0 ]; then
   echo "Загрузка завершена успешно."
