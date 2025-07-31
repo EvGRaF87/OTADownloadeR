@@ -3,7 +3,7 @@
 export DEBIAN_FRONTEND=noninteractive
 
 # --- НАСТРОЙКИ ---
-CURL_SH_URL="https://raw.githubusercontent.com/EvGRaF87/OTADownloadeR/refs/heads/main/aria.sh"
+CURL_SH_URL="https://raw.githubusercontent.com/EvGRaF87/OTADownloadeR/refs/heads/main/curl.sh"
 
 # Colors
 GREEN="\e[32m"
