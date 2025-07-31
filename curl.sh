@@ -21,7 +21,7 @@ fi
 echo -e
 echo   "Downloading....."
 echo -e
-curl -A "$argument" -o "$url" "$download_dir"
+curl -A "$argument" -O "$url" -d "$download_dir"
 echo -e
 if [ $? -eq 0 ]; then
   echo "Загрузка завершена успешно."
