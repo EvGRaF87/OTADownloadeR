@@ -2,7 +2,7 @@
 clear
 echo "========= DownloadeR & Resolver ========"
 
-APP_NAME="OTA Tools"
+APP_NAME="OTA DownloadeR"
 APP_VERSION="v1.0"
 APP_AUTHOR="SeRViP"
 cleanup() {
@@ -72,9 +72,7 @@ resolve_zip() {
 
 clear
 echo -e "${GREEN}╔═════════════════════════════════════╗${RESET}"
-echo -e "${GREEN}║${RESET}${RED_BG}${WHITE}              Universal              ${RESET}${GREEN}║${RESET}"
-
-echo -e "${GREEN}║${RESET} ${YELLOW}      DownloadeR${RESET} & ${YELLOW}Resolver${RESET}         ${GREEN}║${RESET}"
+echo -e "${GREEN}║${RESET} ${YELLOW}        DownloadeR${RESET} ${YELLOW}V1.0${RESET}         ${GREEN}║${RESET}"
 
 echo -e "${GREEN}║${RESET}    ${RED}         by${RESET} ${BLUE}SeRViP  ${RESET}             ${GREEN}║${RESET}"
 echo -e "${GREEN}╠═════════════════════════════════════╣${RESET}"                              
