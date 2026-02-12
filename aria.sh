@@ -1,6 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 clear
-echo "========= DownloadeR & Resolver ========"
 
 NAME="DownloadeR"
 VERSION="v1.0"
