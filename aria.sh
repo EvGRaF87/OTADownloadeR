@@ -72,9 +72,9 @@ resolve_zip() {
 
 clear
 echo -e "${GREEN}╔═════════════════════════════════════╗${RESET}"
-echo -e "${GREEN}║${RESET}  ${YELLOW} DownloadeR${RESET} ${YELLOW}V1.0${RESET}                 ${GREEN}║${RESET}"
+echo -e "${GREEN}║${RESET}         ${YELLOW} DownloadeR${RESET}  ${YELLOW}V1.0${RESET}           ${GREEN}║${RESET}"
 
-echo -e "${GREEN}║${RESET}    ${RED}         by${RESET} ${BLUE}SeRViP  ${RESET}             ${GREEN}║${RESET}"
+echo -e "${GREEN}║${RESET}    ${RED}         by${RESET}  ${BLUE}SeRViP  ${RESET}            ${GREEN}║${RESET}"
 echo -e "${GREEN}╠═════════════════════════════════════╣${RESET}"                              
 echo -e "${GREEN}║${RESET}${YELLOW_BG}${BLACK}   Realme   ${RESET}${GREEN_BG}${BLACK}    Oppo    ${RESET}${RED_BG}${WHITE}   OnePlus   ${RESET}${GREEN}║${RESET}"
 echo -e "${GREEN}╚═════════════════════════════════════╝${RESET}" 
