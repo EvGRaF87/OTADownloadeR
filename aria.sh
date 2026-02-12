@@ -72,7 +72,7 @@ resolve_zip() {
 
 clear
 echo -e "${GREEN}╔═════════════════════════════════════╗${RESET}"
-echo -e "${GREEN}║${RESET} ${YELLOW}         DownloadeR${RESET} ${YELLOW}V1.0${RESET}             ${GREEN}║${RESET}"
+echo -e "${GREEN}║${RESET}  ${YELLOW} DownloadeR${RESET} ${YELLOW}V1.0${RESET}                 ${GREEN}║${RESET}"
 
 echo -e "${GREEN}║${RESET}    ${RED}         by${RESET} ${BLUE}SeRViP  ${RESET}             ${GREEN}║${RESET}"
 echo -e "${GREEN}╠═════════════════════════════════════╣${RESET}"                              
