@@ -2,9 +2,9 @@
 clear
 echo "========= DownloadeR & Resolver ========"
 
-APP_NAME="OTA DownloadeR"
-APP_VERSION="v1.0"
-APP_AUTHOR="SeRViP"
+NAME="DownloadeR"
+VERSION="v1.0"
+AUTHOR="SeRViP"
 cleanup() {
     echo
     echo "🔙 Returning to menu..."
@@ -32,7 +32,6 @@ if ! command -v aria2c &>/dev/null; then
 fi
 
 DOWNLOAD_DIR="/storage/emulated/0/Download/DownloadeR"
-LOG_FILE="$DOWNLOAD_DIR/ota_downloads.log"
 mkdir -p "$DOWNLOAD_DIR"
 
 for cmd in aria2c curl python3; do
@@ -72,9 +71,9 @@ resolve_zip() {
 
 clear
 echo -e "${GREEN}╔═════════════════════════════════════╗${RESET}"
-echo -e "${GREEN}║${RESET}         ${YELLOW} DownloadeR${RESET}  ${YELLOW}V1.0${RESET}           ${GREEN}║${RESET}"
+echo -e "${GREEN}║${RESET}         ${YELLOW} $NAME${RESET}  ${YELLOW}$VERSION${RESET}           ${GREEN}║${RESET}"
 
-echo -e "${GREEN}║${RESET}    ${RED}         by${RESET}  ${BLUE}SeRViP  ${RESET}            ${GREEN}║${RESET}"
+echo -e "${GREEN}║${RESET}    ${RED}         by${RESET}  ${BLUE}$AUTHOR  ${RESET}            ${GREEN}║${RESET}"
 echo -e "${GREEN}╠═════════════════════════════════════╣${RESET}"                              
 echo -e "${GREEN}║${RESET}${YELLOW_BG}${BLACK}   Realme   ${RESET}${GREEN_BG}${BLACK}    Oppo    ${RESET}${RED_BG}${WHITE}   OnePlus   ${RESET}${GREEN}║${RESET}"
 echo -e "${GREEN}╚═════════════════════════════════════╝${RESET}" 
