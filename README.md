@@ -1,6 +1,6 @@
 # OTADownloadeR
 
-Downloader for Realme / Oppo OTA firmware.
+Downloader for OnePlus / Realme / Oppo OTA firmware.
 
 ## Features
 - DownloadeR with OTA link Resolver
