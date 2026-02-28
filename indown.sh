@@ -31,7 +31,11 @@ echo ""
 echo -e "${YELLOW}Этот скрипт автоматически скачает и настроит всё необходимое.${RESET}"
 read -p "Нажмите [Enter] для начала..."
 
-echo -e "\n${GREEN}>>> Шаг 1: Загрузка скрипта (aria.sh)...${RESET}"
+echo -e "\n${GREEN}>>> Шаг 1: Установка Python ...${RESET}"
+
+pkg install -y python
+
+echo -e "\n${GREEN}>>> Шаг 2: Загрузка скрипта (aria.sh)...${RESET}"
 
 if [ ! -d "$OTA_DIR" ]; then
   mkdir -p "$OTA_DIR"
@@ -55,7 +59,7 @@ if [ ! -f "$ARIA_SH_PATH" ] || [ ! -s "$ARIA_SH_PATH" ]; then
 fi
 echo -e "${GREEN}Скрипт aria.sh успешно загружен в $ARIA_SH_PATH${RESET}"
 
-echo -e "\n${GREEN}>>> Шаг 2: Создание ярлыка...${RESET}"
+echo -e "\n${GREEN}>>> Шаг 3: Создание ярлыка...${RESET}"
 SHORTCUT_DIR="$HOME/.shortcuts"
 SHORTCUT_FILE="$SHORTCUT_DIR/DownloadeR"
 
